@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading{
+    font-size:xx-large;
+}
+.cal{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(209, 229, 230);
+    width: 25%;
+
+}
+section{
+    margin-top: 8%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+input[type=text]{
+    width: 100%;
+    background-color: rgb(225, 225, 233);
+   
+}
+input[type=button]{
+    width: 31%;
+    background-color: rgb(165, 165, 195);
+    border: 2px solid;
+    
+}
+#clear{
+    width: 100%;
+}
+#equal{
+    width: 62%;
+}
+@media only  screen and (max-width:863px){
+  
+    input[type=text]{
+        width: 100%;
+        background-color: rgb(225, 225, 233);
+    }
+    input[type=button]{
+        width: 31%;
+        background-color: rgb(165, 165, 195);
+        border: 2px solid;
+        
+    }
+    #clear{
+        width: 100%;
+    }
+    #equal{
+        width: 62%;
+    }       
+
+}
+

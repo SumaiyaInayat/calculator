@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <div class="cal">
+    <span id="heading"><center>Calculator!</center></span>
+    <form action="" name="forms">
+        <input type="text" name="answers" id="">
+        <br><br>
+        <input type="button" value="1" onclick="forms.answers.value+='1'" >
+        <input type="button" value="2" onclick="forms.answers.value+='2'" >
+        <input type="button" value="3" onclick="forms.answers.value+='3'">
+        <br><br>
+        <input type="button" value="4" onclick="forms.answers.value+='4'" >
+        <input type="button" value="5" onclick="forms.answers.value+='5'" >
+        <input type="button" value="6" onclick="forms.answers.value+='6'" >
+        <br><br>
+        <input type="button" value="7" onclick="forms.answers.value+='7'">
+        <input type="button" value="8" onclick="forms.answers.value+='8'">
+        <input type="button" value="9" onclick="forms.answers.value+='9'">
+        <br><br>
+        <input type="button" value="+" onclick="forms.answers.value+='+'">
+        <input type="button" value="-" onclick="forms.answers.value+='-'">
+        <input type="button" value="*" onclick="forms.answers.value+='*'">
+        <br><br>
+        <input type="button" value="/" onclick="forms.answers.value+='/'">
+        <input type="button" value="0" onclick="forms.answers.value+='0'">
+        <input type="button" value="Sqrt" onclick="forms.answers.value=Math.sqrt(forms.answers.value)">
+        <br><br>
+        <input type="button" value="Sin" onclick="forms.answers.value=Math.sin(forms.answers.value)">
+        <input type="button" value="Cos" onclick="forms.answers.value=Math.cos(forms.answers.value)">
+        <input type="button" value="Tan" onclick="forms.answers.value=Math.tan(forms.answers.value)">
+        <br><br>
+        
+        <input type="button" value="log10" onclick="forms.answers.value=Math.log10(forms.answers.value)">
+        <input type="button" id="equal" value="=" onclick="forms.answers.value=eval(forms.answers.value)">
+        <br><br>
+        <input type="button" value="Clear All" id="clear" onclick="forms.answers.value=''">
+    </form>
+</div>
+</section>
+</body>
+</html>
